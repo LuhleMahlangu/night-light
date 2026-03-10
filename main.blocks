@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="Woa/eQ:k0(*7BnBGu,-Y" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="Z27{/qDlb5g$OBUq!]VN"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="JpF0IdINR+IUMJ87zz?_"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="[VTrhLh#K_.W98=fN|+I"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="Rfsc)~/K1=_tHqQTp=kY"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="yBCqX|Jjt7*xpPAr|yD;"></block></value><value name="B"><shadow type="math_number" id="-[m+5]%c/0nbVYFtx%uA"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="sPq)A9a4wmVyj|em.6b%"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="~9UpeXOu|O+Kst(`EhDf"></block></statement></block></statement></block></xml>
